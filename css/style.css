@@ -1,0 +1,79 @@
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Poppins;
+    background-color: #f8f5f5;
+    border-radius: 5px;
+    
+}
+
+.wrapper {
+    position: relative;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 40px 80px 40px;
+
+    border-radius: 10px;
+}
+
+.view-all {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 55px;
+    right: 40px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.people {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.person {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+.ava {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.person__info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.person__text {
+}
+.person__name {
+    font-weight: 700;
+    font-size: 18px;
+}
+.person__friends {
+}
+.button {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: #000;
+    background-color: #ffffff;
+    padding: 15px 35px;
+    max-height: 40px;
+    box-shadow: 0 5px 20px grey;
+}
